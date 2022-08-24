@@ -4,6 +4,7 @@ import cors from "cors";
 import articulos from "./rutas/articulosRouter.js";
 import clientes from "./rutas/clientesRouter.js";
 import facturas from "./rutas/facturasRouter.js";
+import indexRouter from "./rutas/indexRouter.js"
 
 const app = express();
 
